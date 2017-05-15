@@ -1,0 +1,40 @@
+// ====================
+// Section
+// ---
+.section{
+	@at-root{
+		// Section Banner
+		// Section Filter
+		// ....
+	}
+}
+
+// ====================
+// Pages
+// ---
+.page{
+	
+    @at-root{
+        .login-form{
+			.page{
+				@include display-flex;
+				height: 100vh;
+				@include align-items(center);
+				@include justify-content(center);
+				@include flex-direction(column);
+				background-color: $link-color;
+			}
+		}
+		.page-maps{
+			.row{
+				margin-left: 0;
+				margin-right: 0;
+			}
+			[class*="col-sm"]{
+				padding-left: 0;
+				padding-right: 0;
+				
+			}
+		}
+    }    
+}

@@ -1,0 +1,15 @@
+// ====================
+// View list
+// ---
+.view{
+	.views-field{
+		& ~ .views-field{
+			@include sizeRem(margin-top, 10px);	
+		}
+	}
+	@at-root{
+		// view a
+		// view b
+		// ...
+	}
+}

@@ -1,0 +1,44 @@
+[07-Feb-2017 04:20:16 UTC] PHP Fatal error:  Call to undefined method Administrator::Pusher() in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 22
+[07-Feb-2017 04:20:21 UTC] PHP Fatal error:  Call to undefined method Administrator::Pusher() in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 22
+[17-Feb-2017 14:10:02 UTC] PHP Fatal error:  Call to undefined method Api::strip_dau() in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 26
+[17-Feb-2017 14:13:11 UTC] PHP Fatal error:  Call to a member function Mtimsodepkhts() on null in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 36
+[19-Feb-2017 09:28:57 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 78
+[21-Feb-2017 05:09:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/models/Model_adm.php on line 62
+[28-Feb-2017 06:03:42 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or '$' in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 71
+[28-Feb-2017 06:35:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/models/Model_adm.php on line 158
+[04-Mar-2017 04:49:19 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/vnsdevco/n3t.top/test/application/config/config.php on line 367
+[04-Mar-2017 04:49:23 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/vnsdevco/n3t.top/test/application/config/config.php on line 367
+[04-Mar-2017 04:49:24 UTC] PHP Parse error:  syntax error, unexpected '$config' (T_VARIABLE) in /home/vnsdevco/n3t.top/test/application/config/config.php on line 367
+[06-Mar-2017 07:48:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 31
+[06-Mar-2017 07:48:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 299
+[08-Mar-2017 04:36:13 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 107
+[08-Mar-2017 06:47:15 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 38
+[15-Mar-2017 04:25:46 UTC] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 24
+[15-Mar-2017 08:57:42 UTC] PHP Fatal error:  Call to a member function register() on null in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 749
+[15-Mar-2017 08:58:27 UTC] PHP Fatal error:  Call to a member function register() on null in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 749
+[16-Mar-2017 03:24:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 928
+[20-Mar-2017 07:31:59 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Fire.php on line 16
+[20-Mar-2017 07:32:05 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Fire.php on line 16
+[20-Mar-2017 07:42:43 UTC] PHP Fatal error:  Call to a member function execute() on null in /home/vnsdevco/n3t.top/test/application/controllers/Fire.php on line 23
+[22-Mar-2017 10:22:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 25593 bytes) in /home/vnsdevco/n3t.top/test/application/models/Model_adm.php on line 182
+[24-Mar-2017 08:08:59 UTC] PHP Fatal error:  Call to a member function unset_add() on null in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 158
+[24-Mar-2017 08:58:21 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 39
+[24-Mar-2017 09:01:18 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[24-Mar-2017 09:02:33 UTC] PHP Fatal error:  Call to a member function _simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[24-Mar-2017 09:04:27 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[24-Mar-2017 09:04:46 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[24-Mar-2017 09:05:11 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[24-Mar-2017 09:05:14 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[24-Mar-2017 09:06:05 UTC] PHP Fatal error:  Call to a member function simple_get() on null in /home/vnsdevco/n3t.top/test/application/controllers/Administrator.php on line 20
+[29-Mar-2017 09:02:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 69
+[29-Mar-2017 09:03:16 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/controllers/Crud.php on line 935
+[01-Apr-2017 09:11:34 UTC] PHP Fatal error:  Out of memory (allocated 571211776) (tried to allocate 72 bytes) in /home/vnsdevco/n3t.top/test/application/views/errors/html/error_php.php on line 17
+[01-Apr-2017 09:21:58 UTC] PHP Fatal error:  Out of memory (allocated 564920320) (tried to allocate 72 bytes) in /home/vnsdevco/n3t.top/test/application/views/errors/html/error_php.php on line 17
+[01-Apr-2017 09:24:34 UTC] PHP Fatal error:  Out of memory (allocated 564920320) (tried to allocate 72 bytes) in /home/vnsdevco/n3t.top/test/application/views/errors/html/error_php.php on line 17
+[04-Apr-2017 03:55:16 UTC] PHP Fatal error:  Class 'SMTP' not found in /home/vnsdevco/n3t.top/test/application/libraries/class.phpmailer.php on line 1520
+[05-Apr-2017 17:08:05 UTC] PHP Fatal error:  Call to a member function checksdt() on null in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 137
+[05-Apr-2017 17:08:36 UTC] PHP Fatal error:  Call to a member function checksdt() on null in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 137
+[05-Apr-2017 17:08:58 UTC] PHP Fatal error:  Call to a member function checksdt() on null in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 137
+[05-Apr-2017 17:09:28 UTC] PHP Fatal error:  Call to a member function checksdt() on null in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 137
+[08-Apr-2017 05:12:23 UTC] PHP Fatal error:  Call to undefined method Grocery_CRUD::get_true_false_readonly_input() in /home/vnsdevco/n3t.top/test/application/libraries/Grocery_CRUD.php on line 4321
+[08-Apr-2017 09:30:57 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/vnsdevco/n3t.top/test/application/controllers/Api.php on line 410

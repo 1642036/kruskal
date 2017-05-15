@@ -1,0 +1,220 @@
+// ====================
+// Block list
+// ---
+.field-maps{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	iframe{
+		width: 100%;
+		height: 100%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		right: 0;
+		position: absolute;
+		border: 0 none;
+	}
+}
+.block{
+	@at-root{
+		.block-form{
+			min-width: 400px;
+			.form-item{
+				@include sizeRem(margin-top, 10px);
+				@include sizeRem(margin-bottom, 10px);
+			}
+			.form-type-checkbox{
+				@include sizeRem(padding-left, 15px);
+				input[type="checkbox"]{
+					position: relative;
+					top: -1px;
+					margin-right: 5px;
+				}
+				label{
+					color: $white-color;
+					@include sizeRem(font-size, 14px);
+					@include wp-font($font-medium);
+				}
+			}
+			.group-action{
+				@include sizeRem(margin-top, 25px);
+			}
+		}
+		.block-infos{
+			height: 100vh;
+			background-color: $link-color;
+			@include sizeRemAll(padding, 40px, 30px, 30px, 30px);
+			.logo{
+				@include sizeRemAll(margin, 30px, 0px, 30px, 0px);
+			}
+
+		}
+	}
+}
+
+body.model-open{
+    overflow: hidden;
+    .loadingpopup{
+        @include animated;
+        @include animation-name(fadeInFromNone);
+    }    
+}
+.loadingpopup{
+    display: none;
+    &:before{
+        content:'';
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        background-color: #000;
+        @include opacity(.5);
+    }
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    // display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    .inner{
+        width: 300px;
+        margin: 0 auto;
+        position: relative;
+        // background-color: white;
+        @include sizeRemAll(padding, 60px, 100px, 60px, 100px);
+        text-align: center;
+        // @include sizeRem(margin-top, 30px);
+        // @include sizeRem(margin-bottom, 30px);
+        @include border-radius(3px);
+        // @include box-shadow(0 2px 60px 5px rgba(88, 88, 88, 0.39));
+        top: 50%;
+        @include translateY(-50%);
+    }
+}
+
+
+// ====================
+// Panel List
+// ---
+.panel-pane{
+    margin:{
+        @include sizeRem(top, 15px);
+        @include sizeRem(bottom, 15px);
+    }
+	@at-root{
+		// Panel a
+		// Panel b
+		// ...
+	}
+}
+
+.page{
+	.row{
+		margin: 0;
+	}
+	[class*="col-sm-"]{
+		padding: 0;
+	}
+}
+
+.block-infos{
+	position: relative;
+	.label-name{
+		@include sizeRem(font-size, 14px);
+		color: $white-color;
+		position: absolute;
+		right: 20px;
+		top: 20px;
+		@include wp-font(font-bold);
+	}
+	#tutorial{
+		@include sizeRem(padding-left, 15px);
+		@include sizeRem(padding-right, 15px);
+		text-align:center;
+		span{
+			display:block;
+		}
+		color: $white-color;
+		@include sizeRem(font-size, 14px);
+
+	}
+	.logo{
+		> a{
+			display: block;
+			@include sizeRem(padding-left, 30px);
+			@include sizeRem(padding-right, 30px);	
+			@include sizeRem(margin-bottom, 30px);
+		}
+	}
+
+	.button{
+		@include clearfix;
+		@include sizeRem(margin-left, -5px);
+		@include sizeRem(margin-right, -5px);
+		> *{
+		    cursor: pointer;
+		    display: inline-block;
+		    font-size: 14px;
+		    line-height: 1.42857;
+		    text-align: center;
+		    touch-action: manipulation;
+		    vertical-align: middle;
+		    white-space: nowrap;
+		    border-radius: 20px;
+		    float: left;
+		    @include wp-font(font-bold);
+		    margin-bottom: 0.75rem;
+		    @include sizeRem(margin-left, 5px);
+			@include sizeRem(margin-right, 5px);
+		    min-width: 5.3125rem;
+		    padding: 0.5625rem 0rem;
+		    text-align: center;
+		    width: calc(100% - 10px);
+		    background-color: $white-color;
+		    color: $body-color;
+		    border: 1px solid $white-color;
+		    text-transform: capitalize;
+		    &:hover, &:focus{
+		    	color: $link-color;
+		    }
+		  //   &:nth-child(3) ~ button{
+				// width: calc(50% - 10px);
+		  //   }
+		}
+	}
+	.access, #loadlai{
+		cursor: pointer;
+	    display: block;
+	    font-size: 14px;
+	    line-height: 1.42857;
+	    text-align: center;
+	    touch-action: manipulation;
+	    vertical-align: middle;
+	    white-space: nowrap;
+	    border-radius: 20px;
+	    @include wp-font(font-bold);
+	    margin-bottom: 0.75rem;
+	    min-width: 5.3125rem;
+	    padding: 0.5625rem 0rem;
+	    width: 100%;
+	    text-align: center;
+	    background-color: $white-color;
+	    color: $body-color;
+	    border: 1px solid $white-color;
+	    text-transform: capitalize;
+	    &:hover, &:focus{
+	    	color: $link-color;
+	    }
+	}
+}
+
+
